@@ -1,0 +1,32 @@
+
+{% block _souvenir_photos_widget %}
+    <p>ici, vous pouvez ajouter une image</p>
+    {{ form_widget(form) }}
+    <input type="hidden" id="widgets-counter" value="0">
+    <div class="form-group">
+        <button type="button" id="add-image" class="btn btn-primary">
+            <i class="fas fa-check"></i>
+            Ajouter une image
+        </button>
+    </div>
+{% endblock %}
+
+{% block _souvenir_photos_entry_row %}
+    {{ form_widget(form) }}
+{% endblock %}
+
+{% block _souvenir_photos_entry_widget %}
+    <div class="form-group" id="block_{{ id }}">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="col">
+                    {{ form_widget(form.legende) }}
+                    {{ form_errors(form.legende) }}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <button type="button" data-action="delete" data-target="#block_{{ id }}" class="btn btn-danger">X</button>
+        </div>
+    </div>
+{% endblock %}

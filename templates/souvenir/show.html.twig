@@ -1,0 +1,89 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Reserver l'annonce{% endblock %}
+{% form_theme form _self %}
+
+{% block stylesheets %}
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1 class="my-5">Votre réservation n° {{ booking.id }}</h1>
+
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-light">
+                    <h2>Détails</h2>
+                    <dl class="row">
+                        <dt class="col-md-4">n°</dt>
+                        <dt class="col-md-8">{{ booking.id }}</dt>
+                        <dt class="col-md-4">Date d'arrivée</dt>
+                        <dt class="col-md-8">{{ booking.startDate | date('d/m/Y') }}</dt>
+                        <dt class="col-md-4">Date de départ</dt>
+                        <dt class="col-md-8">{{ booking.endDate | date('d/m/Y') }}</dt>
+                        <dt class="col-md-4">Nombre de nuits</dt>
+                        <dt class="col-md-8">{{ booking.duration }}</dt>
+                        <dt class="col-md-4">Montant total</dt>
+                        <dt class="col-md-8">{{ booking.amount | number_format(2, ',', ' ') }}</dt>
+                        <dt class="col-md-4">Commentaire</dt>
+                        <dt class="col-md-8">{{ booking.comment | default('Aucun commentaire') }}</dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+
+
+        <button type="submit" class="btn btn-primary">
+            <i class="fa fa-check"></i>
+            Enregistrer
+        </button>
+        {{ form_end(form) }}
+
+    </div>
+{% endblock %}
+
+{% block _souvenir_photos_widget %}
+    <p>ici, vous pouvez ajouter une image</p>
+    {{ form_widget(form) }}
+    <input type="hidden" id="widgets-counter" value="0">
+    <div class="form-group">
+        <button type="button" id="add-photo" class="btn btn-primary">
+            <i class="fas fa-check"></i>
+            Ajouter une image
+        </button>
+    </div>
+{% endblock %}
+
+{% block _souvenir_photos_entry_row %}
+    {{ form_widget(form) }}
+{% endblock %}
+
+{% block _souvenir_photos_entry_widget %}
+    <div class="form-group" id="block_{{ id }}">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="col">
+                    {{ form_widget(form.legende) }}
+                    {{ form_errors(form.legende) }}
+                </div>
+                <div class="col">
+                    {{ form_widget(form.filename) }}
+                    {{ form_errors(form.filename) }}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <button type="button" data-action="delete" data-target="#block_{{ id }}" class="btn btn-danger">X</button>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('js/souvenir') }}
+{% endblock %}
+

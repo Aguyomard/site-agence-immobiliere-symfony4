@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% block title %}Page non trouvée{% endblock %}
+{% block body %}
+    <div class="container">
+        <h1>Vous ne pouvez pas accéder à cette ressource</h1>
+        <div class="alert alert-danger">
+            <p>Vous ne pouvez pas accéder à cette ressource</p>
+        </div>
+        <a href="{{ path('homepage') }}" class="btn btn-primary">Retour à l'acceuil</a>
+    </div>
+{% endblock %}
