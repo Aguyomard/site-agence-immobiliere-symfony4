@@ -14,11 +14,11 @@ Il se compose d'abord d'une page d'accueil affichant les appartements et utilisa
 <h4>Page d'annonces</h4>
 Une page restituant l’ensemble des annonces avec possibilité d’effectuer des recherches et de filtrer les résultats.
 <a href="url"><img src="https://github.com/Aguyomard/site-agence-immobiliere-symfony4/blob/master/screens/annonces.png" width="70%" height="70%" class="center"></a>
-<h4>Page de visualisation d'une annonces</h4>
-Sur la page de visualisation d'une annonce, l'utilisateur connecté pourra réserver une location (ce qui aura pour effet de la rendre insdisponnible à ces dates) et par la suite noter et commenter la location.
+<h4>Page de visualisation d'une annonce</h4>
+Sur la page de visualisation d'une annonce, l'utilisateur connecté pourra réserver une location (ce qui aura pour effet de la rendre indisponible  à ces dates) et par la suite noter et commenter la location.
 <a href="url"><img src="https://github.com/Aguyomard/site-agence-immobiliere-symfony4/blob/master/screens/product.png" width="70%" height="70%" class="center"></a>
 
-<h3>Pages accessibles aux tulisateurs connectés</h3>
+<h3>Pages accessibles aux ulisateurs connectés</h3>
 <h4>Page de création d'annonces</h4>
 <a href="url"><img src="https://github.com/Aguyomard/site-agence-immobiliere-symfony4/blob/master/screens/nouvelle_annonce.png" width="70%" height="70%" class="center"></a>
 <h4>Page de visualisation des annonces de l'utilisateur</h4>
