@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3965e6d3-bd99-4641-801a-bbd367a555aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/admin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/admin2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/description_annonce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/nos_annonces.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/nouvelle_annonce.png" beforeDir="false" afterPath="$PROJECT_DIR$/screens/nouvelle_annonce.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/vos_reservation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/SearchType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/SearchType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/partials/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/partials/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/partials/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +272,7 @@
       <workItem from="1590913595157" duration="38000" />
       <workItem from="1590940666842" duration="799000" />
       <workItem from="1591020417387" duration="674000" />
-      <workItem from="1591992805442" duration="205000" />
+      <workItem from="1591992805442" duration="3096000" />
     </task>
     <servers />
   </component>
@@ -292,10 +305,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586888200807" />
-    <state x="314" y="61" width="979" height="606" key="find.popup" timestamp="1590940674426">
+    <state x="314" y="61" width="979" height="606" key="find.popup" timestamp="1592040954459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="314" y="61" width="979" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1590940674426" />
+    <state x="314" y="61" width="979" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1592040954459" />
     <state x="348" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591021054754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
