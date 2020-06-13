@@ -26,7 +26,7 @@ Elle permet à l'utilisateur connecté d'avoir accès à l'ensemble de ses reser
 <a href="url"><img src="https://github.com/Aguyomard/site-agence-immobiliere-symfony4/blob/master/screens/mes_reservations.png" width="70%" height="70%" class="center"></a>
 
 <h2>Back office</h2>
-Accessible uniquement aux administrateur
+Accessible uniquement aux administrateurs
 <h3>Page d'acceuil</h3>
 Cette page donne une vision globale de toutes les données du site.
 <a href="url"><img src="https://github.com/Aguyomard/site-agence-immobiliere-symfony4/blob/master/screens/home_admin.png" width="70%" height="70%" class="center"></a>
