@@ -1,7 +1,7 @@
 <h1>Site d'agence de location d'appartements (symfony 4)</h1>
 
 <p>
-Le site se scinde en deux parties : un « front office » soit la partie frontale du site, visible par la clientèle et en contact direct avec elle et le "back office", la partie du site internet qui n'est visible que par l'administrateur du site et qui permet de gérer le contenu, les fonctionnalités...).
+Le site se scinde en deux parties : un « front office », la partie frontale du site, visible par la clientèle et en contact direct avec elle et le "back office", la partie du site internet qui n'est visible que par l'administrateur du site et qui permet de gérer le contenu, les fonctionnalités...).
 </p>
 
 <h2>Front office</h2>
